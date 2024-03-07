@@ -20,4 +20,8 @@ app.use((req, res, next) => {
   });
 });
 
+/* app.listen(3000,()=>{
+  console.log('listening')
+}) */
+
 module.exports.handler = serverless(app);
